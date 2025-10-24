@@ -257,6 +257,7 @@ from conductor.client.http.models.search_result_workflow_summary import SearchRe
 from conductor.client.http.models.start_workflow import StartWorkflow
 from conductor.shared.http.enums.idempotency_strategy import IdempotencyStrategy
 from conductor.client.http.models.task_result_status import TaskResultStatus
+from conductor.client.http.models.webhook_config import WebhookConfig
 
 __all__ = [  # noqa: RUF022
     "Action",
@@ -403,4 +404,5 @@ __all__ = [  # noqa: RUF022
     "StateChangeEventType",
     "StateChangeConfig",
     "TaskResultStatus",
+    "WebhookConfig",
 ]
